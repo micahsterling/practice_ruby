@@ -22,8 +22,8 @@ class BallStore
   attr_accessor :input_options
   def initialize(input_options)
     @color = input_options [:color]
-    @size = input_options [size]
-    @price = input_options [price]
+    @size = input_options [:size]
+    @price = input_options [:price]
   end
 
   def color 
